@@ -1,0 +1,89 @@
+.center{
+    background-image: linear-gradient(to left bottom,#4ec6ca,#43389F);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contenedor{
+    background: transparent;
+    width: 240px;
+    height: 240px;
+    position:absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.uno-uno{
+    background-color: #fff;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    border-radius: 5px;
+    transform: rotate(55deg);
+    opacity: .8;
+    z-index: 1;
+}
+
+.dos-uno{
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 25px;
+    height: 110px;
+    border-radius: 5px;
+    z-index: 20;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+
+}
+
+
+.uno-cero,.dos-cero{
+    position: absolute;
+    z-index: 15;
+    top: 0;
+    left: 30px;
+    box-sizing: border-box;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.dos-cero{
+    left: 123px;
+    z-index: 14;
+}
+
+ div span{
+    color: #fff;
+    font-family: 'Courier New', 'Courier', sans-serif;
+}
+
+.text-1{
+    position: relative;
+    top: 57%;
+    display: block;
+    left: 300px;
+    transform: translate(-50%,-50%);
+    font-size: 92px;
+}
+
+.text-2{
+    position: relative;
+    display: block;
+    top: 42%;
+    left: 306px;
+    transform:  translate(-50%,-50%);
+    font-size: 26px;
+
+}
